@@ -366,7 +366,9 @@ a{
     /* margin-bottom: 30px;
     border-radius: 0px; */
 }
-
+.social-links a:hover{
+    background-color: red;
+}
 .expert-title{
     margin-bottom: 10px;
     color: #000;
@@ -402,8 +404,6 @@ a{
     flex-wrap: wrap;
     margin-left: -10px;
     margin-right: -10px;
-    /* justify-content: space-between; */
-
 }
 
 .clients__block{
@@ -423,9 +423,7 @@ a{
 }
 @media only screen and (max-width: 576px) {
     .clients__item-wrapper{
-        /* align-items: center; */
-        /* flex-direction: column; */
-        /* gap: 10px 20px; */
+        justify-content: center;
     }
     .clients__item{
         
@@ -555,5 +553,8 @@ a{
     }
     .email-form{
         align-items: center;
+    }
+    .footer__email h4{
+        justify-content: center;
     }
 } 
