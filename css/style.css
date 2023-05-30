@@ -87,9 +87,6 @@ p{
     color: #757575;
 }
 
-span{
-
-}
 
 a{
     text-decoration: none;
@@ -122,9 +119,7 @@ a{
 }
 
 /* Header */
-/* .header{
-    position: relative;
-} */
+
 .header-logo{
     margin-right: 92px;
 }
@@ -179,7 +174,13 @@ a{
     }
 }
 
+.mail{
+    color: #757575;
+}
 
+.telephone-nav{
+    color: #757575;
+}
 /* Hero */
 .hero{
     position: relative;
@@ -587,6 +588,12 @@ a{
     padding-left: 10px;
 }
 
+.email-form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
 @media only screen and (max-width: 576px) {
     .footer-inner{
         align-items: center;
@@ -606,6 +613,8 @@ a{
     }
 } 
 
+/* Portfolio */
+
 .tabs{
     display: flex;
     flex-wrap: wrap;
@@ -614,6 +623,9 @@ a{
 
 .tablinks{
     width: 125px;
+    padding: 6px 22px;
+    margin-bottom: 50px;
+    margin-top: 94px;
     background: #F5F4FA;
     border-radius: 4px;
     font-family: 'Roboto';
@@ -621,11 +633,9 @@ a{
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
-    /* identical to box height, or 162% */
-
     text-align: center;
     letter-spacing: 0.03em;
-
+    border: #F5F4FA;
     color: #212121;
 }
 
@@ -633,9 +643,26 @@ a{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-bottom: 94px;
 }
 
 .card{
     margin-right: 30px;
     margin-bottom: 30px;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+}
+
+.img-card{
+    margin-bottom: 20px;
+}
+
+.title-card{
+    margin-bottom: 4px;
+    margin-left: 24px;
+}
+
+.subtitle-card{
+    margin-bottom: 20px;
+    margin-left: 24px;
 }
